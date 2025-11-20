@@ -1,0 +1,33 @@
+{
+  "name": "intlayer-svelte-kit",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "start:editor": "npx intlayer-editor start --with 'vite dev'",
+    "preview": "vite preview",
+    "prepare": "svelte-kit sync || echo ''",
+    "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+    "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
+  },
+  "devDependencies": {
+    "@fontsource/fira-mono": "^5.2.7",
+    "@neoconfetti/svelte": "^2.2.2",
+    "@sveltejs/adapter-auto": "^7.0.0",
+    "@sveltejs/kit": "^2.47.1",
+    "@sveltejs/vite-plugin-svelte": "^6.2.1",
+    "svelte": "^5.41.0",
+    "svelte-check": "^4.3.3",
+    "typescript": "^5.9.3",
+    "vite": "^7.1.10",
+    "vite-intlayer": "^7.2.0"
+  },
+  "dependencies": {
+    "@types/node": "^24.10.1",
+    "intlayer": "^7.2.0",
+    "intlayer-editor": "^7.2.0",
+    "svelte-intlayer": "^7.2.0"
+  }
+}
