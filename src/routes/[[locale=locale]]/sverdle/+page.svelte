@@ -5,7 +5,7 @@
 	import type { ActionData, PageData } from './$types';
 	import { MediaQuery } from 'svelte/reactivity';
 	import { useIntlayer } from 'svelte-intlayer';
-
+	
 	interface Props {
 		data: PageData;
 		form: ActionData;
