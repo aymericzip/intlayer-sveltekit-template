@@ -6,7 +6,9 @@
     
     let { children, data }: { children: Snippet, data: LayoutData } = $props();
 
-	setupIntlayer(data.locale);
+    $effect(() => {
+		setupIntlayer(data.locale);
+	});
 
 	const layoutContent = useIntlayer('layout');
 </script>
