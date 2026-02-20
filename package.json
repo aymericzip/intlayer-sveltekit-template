@@ -26,8 +26,8 @@
   },
   "dependencies": {
     "@types/node": "^24.10.1",
-    "intlayer": "latest",
-    "intlayer-editor": "latest",
+    "intlayer": "canary",
+    "intlayer-editor": "canary",
     "svelte-intlayer": "latest"
   }
 }
