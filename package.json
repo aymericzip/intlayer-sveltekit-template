@@ -22,12 +22,12 @@
     "svelte-check": "^4.3.3",
     "typescript": "^6.0.2",
     "vite": "^8.0.2",
-    "vite-intlayer": "latest"
+    "vite-intlayer": "9.0.0-canary.12"
   },
   "dependencies": {
     "@types/node": "^24.10.1",
-    "intlayer": "latest",
-    "intlayer-editor": "latest",
-    "svelte-intlayer": "latest"
+    "intlayer": "9.0.0-canary.12",
+    "intlayer-editor": "9.0.0-canary.12",
+    "svelte-intlayer": "9.0.0-canary.12"
   }
 }
